@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include santaclara_emoticons/static *
+recursive-include santaclara_emoticons/templates *
+recursive-include santaclara_emoticons/fixtures *
+recursive-include docs *
