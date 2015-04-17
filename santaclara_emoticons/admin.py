@@ -37,8 +37,7 @@ class EmoticonAdmin(admin.ModelAdmin):
             form = self.EmoticonsSetChoiceForm(initial={'_selected_action':
                                                         request.POST.getlist(admin.ACTION_CHECKBOX_NAME)})
         return render_to_response('admin/change_emoticonsset.html',
-                                  {'emoticons': queryset, 'form': form},
-                                  context_instance=RequestContext(request))
+                                  context={'emoticons': queryset, 'form': form})
 
     change_emoticonsset.short_description="Change emoticons set"
 
