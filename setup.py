@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='santaclara_emoticons',
-    version='0.3.2',
+    version='0.3.3',
     packages=['santaclara_emoticons'],
     include_package_data=True,
     license='GNU General Public License v3 or later (GPLv3+)',  # example license
